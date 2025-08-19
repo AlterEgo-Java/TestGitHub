@@ -21,6 +21,7 @@ public class Squirrel {
             int a = max(arr[arr.length - 2], arr[arr.length - 1]);
             return max(0, a);
         } else {
+            System.out.println("Oh no, i miss my nuts! :(");
             return max(0, nuts[0]);
         }
     }
