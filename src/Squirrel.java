@@ -22,7 +22,7 @@ public class Squirrel {
             return max(0, a);
         } else {
             System.out.println("Oh no, i miss my nuts! :(");
-            return max(0, nuts[0]);
+            return max(10, nuts[0]);
         }
     }
 
